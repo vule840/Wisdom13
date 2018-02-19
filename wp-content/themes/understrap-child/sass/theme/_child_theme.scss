@@ -1,0 +1,25 @@
+body{
+	font-family: $font;
+}
+
+#wrapper-hero {
+    /* padding: 0!important; */
+    padding: 9em 0 !important;
+    background-image: url('http://localhost/Wisdom13/wp-content/uploads/2018/02/Header-image.jpg');
+}
+#wrapper-footer{
+	background: #000;
+	color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: $cyan;
+        padding: 0 1em;
+}
+.header{
+	.naslovna {
+	color: #fff;
+	}
+	p{
+		color: #fff;
+	}
+}
