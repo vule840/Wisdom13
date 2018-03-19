@@ -1,0 +1,305 @@
+# Elementor Pro - by Elementor.com
+
+#### 2017-10-03 v1.9.3
+Fix! - Condition slide style that got effected by previous update
+
+#### 2017-10-02 v1.9.2
+New! - Added integration with MailPoet 3 for Forms actions
+Fix! - Removed height control from Testimonial carousel in mobile editing mode
+Fix! - Removed bottom padding when there's no pagination in Testimonial carousel
+Fix! - Added condition for slides style section in skin bubble mode
+Fix! - Slides per view control for mobile editing in Testimonial carousel
+Fix! - Navigation Arrows icons matched with common Elementor Navigation Arrows
+
+#### 2017-09-28 v1.9.1
+* Fix! - Slides per view for slideshow carousel
+* Fix! - Final polish for the new Testimonial Carousel widget
+* Fix! - Don't play video if slide type is not video
+* Fix! - Removed slides style section condition ([#2497](https://ggithub.com/pojome/elementor/issues/2497))
+* Fix! - Set cursor as pointer for slideshow thumbnails
+
+#### 2017-09-26 v1.9.0
+* New! - Added Media Carousel widget ([#216](https://github.com/pojome/elementor/issues/216), [#347](https://github.com/pojome/elementor/issues/347), [#2209](https://github.com/pojome/elementor/issues/2209))
+* New! - Added Testimonial Carousel widget ([#715](https://github.com/pojome/elementor/issues/715))
+
+#### 2017-09-24 v1.8.3
+* Fix! - Added compatibility for WordPress 4.8.2 & 4.7.6
+* Fix! - Remove slashes from Form sent data
+
+#### 2017-09-19 v1.8.2
+* Tweak! - Added target URL for the tweet message in Blockquote widget
+* Tweak! - Render the slide height before the slider is finished loading
+* Fix! - Space between words for Animated Headline widget
+* Fix! - RTL compatibility for Animated Headline widget
+* Fix! - Italic font style for Animated Headline widget
+* Fix! - Excluded Menu widget from the WP Editor text rendering
+
+#### 2017-09-18 v1.8.1
+* Fix! - WCAG Compatible "required" field attribute for W3C validation ([#2391](https://github.com/pojome/elementor/issues/2391))
+* Fix! - Print the main menu only when is necessary in Menu widget
+* Fix! - Use CSS media query instead of JS to hide items in Menu widget to avoid flickering on page load ([#2381](https://github.com/pojome/elementor/issues/2381))
+
+#### 2017-09-12 v1.8.0
+* New! - Added Nav Menu widget ([#1406](https://github.com/pojome/elementor/issues/1406))
+* Fix! - Field ID for checkbox control in Form widget ([#2279](https://github.com/pojome/elementor/issues/2279))
+* Fix! - Style for Blockquote widget included
+
+#### 2017-09-07 v1.7.2
+* Tweak! - Loading Facebook SDK via JS for better compatibility with caching plugins
+* Fix! - Responsive Embed Facebook post widget for Safari iOS ([#2340](https://github.com/pojome/elementor/issues/2340))
+
+#### 2017-09-05 v1.7.1
+* Fix! - Facebook SDK version
+
+#### 2017-09-05 v1.7.0
+* New! - Added Facebook Button widget for Like, Recommend, Share and Follow
+* New! - Added Facebook Embed widget for Post, Video and Comment
+* New! - Added Facebook Comments widget
+* New! - Added Facebook Page widget (Previously known as Like Box)
+* New! - Added Blockquote widget with Tweet button
+* Tweak! - Added Facebook SDK integration for all Facebook widgets
+* Fix! - Animated headline rotating with long words
+
+#### 2017-08-28 v1.6.1
+* Fix! - Animated Headline marker gets in front of neighboring spans even when "Bring to Front" is not set
+* Fix! - Stroke animation in Animated Headline for MS Edge browser
+* Fix! - Animated headline with more than 1-word per rotation
+* Fix! - Animated Headline in two lines
+* Fix! - Some errors in Global widget
+
+#### 2017-08-22 v1.6.0
+* New! - Added Animated Headline widget
+* New! - Added Hidden field for Forms widget
+* Tweak! - Added notice to update Elementor to v1.6.5 or higher
+* Fix! - CSS Animations names no longer minified, in order to prevent unexpected conflicts
+
+#### 2017-08-16 v1.5.9
+* Tweak! - Added compatibility for the future release of Elementor v1.7
+* Fix! - Portfolio compatibility for GeneratePress theme
+* Fix! - Portfolio filter compatibility for RTL
+* Fix! - Pagination apply for all posts widget in the page
+* Fix! - Global form widget with MailChimp integration not saving
+
+#### 2017-07-25 v1.5.8
+* Tweak! - Added compatibility for the future release of Elementor v1.6
+* Fix! - Improved backward compatibility for query control rename
+
+#### 2017-07-24 v1.5.7
+* Tweak! - Moved JS render of reCAPTCHA to a separate file
+* Tweak! - Display the label in the reCAPTCHA field for better experience
+* Tweak! - Rename `panel-posts-control` to `query-control` and added fallback support
+* Tweak! - Added compatibility for the future release of Elementor with history feature
+* Fix! - reCAPTCHA preview on the editor
+* Fix! - Manual selection (query control) has stopped working after saving ([#2000](https://github.com/pojome/elementor/issues/2000))
+* Fix! - Added condition for icon size control in Share Buttons widget
+
+#### 2017-07-12 v1.5.6
+* Fix! - Query Control correction for taxonomies ([#1963](https://github.com/pojome/elementor/issues/1963))
+* Fix! – Custom CSS override scheme color in the editor
+* Fix! - Added order by Menu Order for Query Control in WC widget
+* Fix! - Glitch with Flip Box background overlay
+
+#### 2017-07-03 v1.5.5
+* Tweak! - Moved reCAPTCHA render to handler & load only if a form is exist
+* Fix! - MailChimp integration: Default number of items returned by API increased to 999
+* Fix! - MailChimp integration: Refresh the groups list if API is changed
+* Fix! - Sorted items in filter bar by A-Z
+* Fix! - Editor glitch with Elementor v1.5 ([#1927](https://github.com/pojome/elementor/issues/1927))
+
+#### 2017-06-22 v1.5.4
+* Tweak! - Improved compatibility for Elementor v1.5
+* Fix! - URL default for Add To Cart widget
+* Fix! - Allowed `date` and `birthday` fields as text for MailChimp integration
+
+#### 2017-06-19 v1.5.3
+* Tweak! - Make flip-box height responsive control
+* Fix! - Facebook share count now gets retrieved by Elementor ([#1829](https://github.com/pojome/elementor/issues/1829))
+* Fix! - Global form widget with MailChimp integration not saving
+
+#### 2017-06-13 v1.5.2
+* Fix! - Custom CSS panel location compatibility for the old versions
+
+#### 2017-06-12 v1.5.1
+* Fix! - MailChimp update existing user registration
+* Fix! - Global widget with JS in the editor mode
+* Fix! - Label section condition in Login widget
+* Fix! - Changes to unlinked global widget do not appear in the editor
+
+#### 2017-05-23 v1.5.0
+* New! - Added Cards, a new skin for Posts widget
+* New! - Added Exclude option to post query control group
+* Tweak! - Added `post_class()` for each post in the loop
+* Tweak! - Added `.elementor-posts-masonry` class when Masonry layout is enabled
+* Tweak! - Added compatibility for the next release of Elementor v1.5.0
+* Tweak! - CSS `autoprefixer` now supports last 5 versions of browsers
+* Tweak! - Added `imageLoaded` library for Posts & Portfolio widgets
+
+#### 2017-05-18 v1.4.4
+* Fix! - Force Mailchimp API to return all lists and not just 10 ([#1683](https://github.com/pojome/elementor/issues/1683))
+* Fix! - Added `.elementor-form` class to Login form to fix style glitch
+
+#### 2017-05-14 v1.4.3
+* Tweak! - Added Redirect After Login option to Login widget
+* Tweak! - Stay in the current page after logout in Login widget
+* Tweak! - Preparation for Elementor settings tabs in future version
+* Fix! - Pinterest in Share Buttons widget now sharing the URL alone
+* Fix! - Bug with `active` class in portfolio filter item
+* Fix! - Higher specific list-style-type `none` for filter items to override some theme style
+
+#### 2017-05-06 v1.4.2
+* Fix! - Temporary patch for form field shortcode in some servers
+
+#### 2017-05-03 v1.4.1
+* Fix! - Bug with custom success message in form widget
+* Fix! - Bug with meta data in email action
+
+#### 2017-05-03 v1.4.0
+* New! - Forms: integration with MailChimp
+* New! - Forms: integration with MailPoet
+* New! - Forms: Added Email 2 action for email confirmation
+* New! - Forms: Added shortcodes for fields
+* New! - Forms: Added custom ID for fields
+* New! - Forms: Added option to edit email HTML template ([#1180](https://github.com/pojome/elementor/issues/1180))
+* New! - Added Login widget
+* Tweak! - Move `send_html` control to `email_content_type`
+* Fix! - Email still sent even if validation failed in form widget
+
+#### 2017-05-01 v1.3.2
+* New! – Added action `elementor_pro/init` for better integration with Elementor Pro
+* Fix! - Posts without featured image in Posts widget ([#1234](https://github.com/pojome/elementor/issues/1234), [#1382](https://github.com/pojome/elementor/issues/1382))
+* Fix! - reCAPTCHA & Honeypot fields with new method
+* Fix! - Added border width control in Share Buttons to avoid a glitch on Chrome browser
+* Fix! - Border radius glitch on hover in Share Buttons
+
+#### 2017-04-25 v1.3.1
+* Fix! - Conflict update with revision history module
+
+#### 2017-04-25 v1.3.0
+* New! - Added Share Buttons widget ([Topic](https://wordpress.org/support/topic/social-sharing-buttons-is-it-possible/))
+* New! - Added Custom CSS for Page Settings
+* New! - Added Masonry layout for Portfolio widget
+* New! - Added Cc & Bcc options to email action ([#1181](https://github.com/pojome/elementor/issues/1181))
+* New! - Introduced `ElementorPro\Modules\Forms\Classes\Action_Base` class for better 3rd party integration for forms
+* Tweak! - Debugger module now also shows errors from Pro
+* Tweak! - Added options for Elementor Library
+* Tweak! - New base posts module for optimized performance
+* Tweak! - Adjusting Posts / Portfolio to the new structure
+* Fix! - Export for posts / portfolio
+* Fix! - Duplicate repeater field with switcher control ([#1442](https://github.com/pojome/elementor/issues/1442))
+* Fix! - Post per Page in the query control
+* Fix! - Metadata does not come through on form emails ([#1566](https://github.com/pojome/elementor/issues/1566))
+
+#### 2017-04-19 v1.2.6
+* Fix! - Added compatibility with WooCommerce 3.0 - Products & Add to Cart widgets
+
+#### 2017-04-18 v1.2.5
+* Fix! - Offset query for posts widgets (Posts, Portfolio and Products)
+
+#### 2017-03-21 v1.2.4
+* Tweak! - Added Indian Rupee sign to Price Table widget
+* Fix! - Portfolio grid for IE11
+* Fix! - Link target blank in Price List widget
+* Fix! - Active item for filter bar in Portfolio widget
+
+#### 2017-03-06 v1.2.3
+* Tweak! - Fully compatible with Elementor v1.3.0
+* Tweak! - Added trigger for after form submission in Forms widget
+* Tweak! - Changed handle name in reCAPTCHA field to avoid conflict with other contact forms
+* Fix! - Portfolio filter syntax in Non-Latin languages
+* Fix! - Added `no-repeat` property for slide with `background-size:contain`
+* Fix! - Condition control & Import value in Posts widgets
+* Fix! - Offset and Pagination in WordPress ([More Info](https://codex.wordpress.org/Making_Custom_Queries_using_Offset_and_Pagination))
+* Fix! - Submit handler bubbling for custom events in Forms widget
+
+#### 2017-02-23 v1.2.2
+* Tweak! - Change name from Side A/B to Front and Back in Flip Box widget
+* Fix! - Error when saving third party widgets in the global widget
+* Fix! - Image position "none" remains visible in editor preview (Posts)
+* Fix! - Hide the pagination when there are no links
+
+#### 2017-02-21 v1.2.1
+* Fix! - Firefox Flip Box 3D compatibility
+
+#### 2017-02-21 v1.2.0
+* New! - Added Flip Box widget
+* New! - Added Ken Burns effect for slides
+* New! - Added Masonry layout for Posts widget
+* New! - Added Pagination option for Posts widget
+* Tweak! - Added background size contain to slides
+* Tweak! - Improve Query control by preload items
+* Fix! - Text color for Checkbox and Radio fields
+
+#### 2017-02-05 v1.1.2
+* Tweak! - Added `aria-required` for better accessibility in forms widget
+* Fix! - Conflict Call to `undefined` method in Posts & Portfolio widgets ([#1271](https://github.com/pojome/elementor/issues/1271), [#1266](https://github.com/pojome/elementor/issues/1266))
+* Fix! - Submit button HTML after error sending
+* Fix! - Success message for `skip_email` function
+* Notice! - Elementor 1.2.0 or later now required
+
+#### 2017-01-24 v1.1.1
+* Fix! - Can't save global widgets when `WP_DEBUG` is `true`
+* Fix! - Undefined variable in WC widgets
+* Fix! - Removed duplicate strings
+
+#### 2017-01-24 v1.1.0
+* New! - Price Table widget ([#102](https://github.com/pojome/elementor/issues/102))
+* New! - WooCommerce Add to Cart widget
+* New! - WooCommerce Categories widget
+* New! - WooCommerce Elements widget
+* New! - Honeypot field for Forms widgets
+* Tweak! - Added inline options for taxonomies & authors if is less than 15 items
+* Tweak! - Added Required Mark for fields in Forms widget
+* Fix! - CSS selectors priority in Slides widget
+* Fix! - CSS bug in Price List widget
+* Fix! - Update all Post CSS files that includes specific Global Widget
+
+#### 2017-01-18 v1.0.9
+* Fix! - Auto complete bug in query controls
+* Fix! - Render template with escaping slashes
+* Fix! - Reply-to field in Forms widget
+
+#### 2017-01-11 v1.0.8
+* Tweak! - Code adjustments for Elementor API
+* Fix! - Removed go pro link from plugins page in admin
+
+#### 2017-01-05 v1.0.7
+* Tweak! - Added filter by featured / sale for WC Products widget
+* Tweak! - Added author control in Portfolio widget
+* Tweak! - Code adjustments for Elementor API
+* Fix! - Added support for empty image ratio
+* Fix! - Avoid nesting a sidebar within a template that will appear in the sidebar itself
+
+#### 2017-01-01 v1.0.6
+* Tweak! - Added Auto-updates for local translation files
+* Fix! - Custom CSS for Global widgets
+* Fix! - Remove `nonce` field (Fix some cache plugins)
+
+#### 2016-12-27 v1.0.5
+* Fix! - Slide element bug fix - 'Link apply on' logic
+* Fix! - Removed unique wrapper for Custom CSS in order to allow media queries ([#1086](https://github.com/pojome/elementor/issues/1086))
+
+#### 2016-12-21 v1.0.4
+* Tweak! - Mobile Editing for fields in the form widget
+* Tweak! - Mobile Editing for posts
+* Tweak! - Allow send form as HTML
+* Tweak! - Improved auto upgrades for Multisite installation
+* Tweak! - Improve editor rendering experience for Portfolio widget
+* Fix! - Posts widget check if image exist 
+* Fix! - Changed the clone method for global widget ([#1042](https://github.com/pojome/elementor/issues/1042))
+* Fix! - Bug slides in RTL (removed direction control)
+* Fix! - Slides with no height jumps when changing slides
+
+#### 2016-12-13 v1.0.3
+* Fix! - Added escape placeholder for HTML Entities in form widget
+* Fix! - Countdown widget RTL bug
+* Fix! - Remove redundant #elementor selector for control style
+* Fix! - Added prefixing with '0' for one digit number in Countdown widget
+
+#### 2016-12-12 v1.0.2
+* Fix! - Page layout collapses when inserting reCAPTCHA field in Form
+
+#### 2016-12-12 v1.0.1
+* Fix! - WordPress widgets disappear from Editor when Elementor Pro active
+
+#### 2016-12-12 v1.0.0
+* Initial release

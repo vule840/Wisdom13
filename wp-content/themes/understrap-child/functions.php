@@ -23,3 +23,4 @@ function theme_enqueue_styles() {
         wp_enqueue_script( 'comment-reply' );
     }
 }
+

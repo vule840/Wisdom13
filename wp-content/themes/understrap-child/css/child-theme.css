@@ -9494,16 +9494,41 @@ body {
   padding: 9em 0 !important;
   background-image: url("http://localhost/Wisdom13/wp-content/uploads/2018/02/Header-image.jpg"); }
 
-#wrapper-footer {
+#wrapper-footer-full {
   background: #000;
   color: #fff; }
+  #wrapper-footer-full a {
+    color: #9c27b0;
+    text-decoration: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    line-height: 2;
+    font-style: 13px; }
+
+#wrapper-footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 13px; }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #69f0ff;
-  padding: 0 1em; }
+  color: #9c27b0;
+  padding: 0 1em;
+  font-size: 13px;
+  text-transform: uppercase; }
 
 .header .naslovna {
   color: #fff; }
 
 .header p {
   color: #fff; }
+
+.mc4wp-form-fields .gumb input {
+  background: #9c27b0;
+  border: none;
+  font-size: 15px;
+  padding: 12px 24px;
+  color: white;
+  font-weight: normal; }
+
+#full-width-page-wrapper {
+  padding: 0px 0; }

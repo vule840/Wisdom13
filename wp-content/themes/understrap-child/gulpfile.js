@@ -8,9 +8,13 @@ var basePaths = {
 // browser-sync watched files
 // automatically reloads the page when files changed
 var browserSyncWatchFiles = [
-    './css/*.min.css',
+   /* './css/*.css',*/
+    './css/*.css',
     './js/*.min.js',
-    './*.php'
+    './js/*.js',
+    './*.php',
+    './page-templates/*.php',
+    './loop-templates/*.php'
 ];
 // browser-sync options
 // see: https://www.browsersync.io/docs/options/
