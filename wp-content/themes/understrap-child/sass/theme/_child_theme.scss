@@ -52,3 +52,40 @@ body{
 #full-width-page-wrapper {
      padding: 0px 0; 
 }
+
+
+.arrow-left_plava {
+ width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 0 40px 50px;
+    border-color: transparent transparent transparent #002060;
+    position: absolute;
+    top: 10px;
+}
+.arrow-left_bijela {
+ width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 0 40px 50px;
+    border-color: transparent transparent transparent #ffffff;
+    position: absolute;
+    top: 10px;
+}
+
+.arrow-right {
+ width: 0;
+height: 0;
+border-style: solid;
+border-width: 40px 50px 40px 0;
+border-color: transparent #007bff transparent transparent;
+position: absolute;
+    top: 10px;
+    right:0;
+}
+.prva{
+    background: #002060;
+}
+.druga{
+    background: #ffffff;
+}
